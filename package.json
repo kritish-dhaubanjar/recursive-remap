@@ -1,0 +1,20 @@
+{
+  "name": "recursive-remap",
+  "version": "1.0.0",
+  "description": "Rename object's keys from specified map.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remap",
+    "remap keys",
+    "remap object"
+  ],
+  "author": "Kritish Dhaubanjar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kritish-dhaubanjar/recursive-remap.git"
+  }
+}
