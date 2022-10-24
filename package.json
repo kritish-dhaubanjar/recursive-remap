@@ -1,6 +1,6 @@
 {
   "name": "recursive-remap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rename object's keys from specified map.",
   "main": "index.js",
   "scripts": {
