@@ -11,15 +11,11 @@ const recursiveRemap = (obj, map) => {
   const keys = Object.keys(map)
 
   for (const key of keys) {
-    if (!obj[key]) {
-      return obj
-    }
-
     if (isArray(map[key])) {
       map[key].forEach((value) => recursiveRemap(obj[key], value))
     } else if (isObject(map[key])) {
       recursiveRemap(obj[key], map[key])
-    } else if (obj[key]) {
+    } else {
       obj[map[key]] = obj[key]
       delete obj[key]
     }
